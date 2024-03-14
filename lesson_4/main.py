@@ -21,7 +21,7 @@ new_list1.extend(new_list2)
 print(f'\nЗадание 1.3\n{new_list1}\n{new_list2}')
 
 
-# Задание 2 Создать два списка, с одинаковым кол-вом элементов. Сделать из этих списков словарь
+# Задание 2 - Создать два списка, с одинаковым кол-вом элементов. Сделать из этих списков словарь
 key_list = [i for i in range(1, 6)]
 value_list = ['Belarus', 'Minsk', 'Kukharskiy', 'Nikita', 'Igorevich']
 new_dict = dict(zip(key_list, value_list))
